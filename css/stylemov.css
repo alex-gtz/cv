@@ -1,0 +1,113 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+#name{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #001845;
+    padding: 10px;
+    border: 0px solid #000000;
+}
+
+#fullname{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#menu{
+    display: none;
+    visibility: hidden;
+}
+
+#download{
+    display: none;
+    visibility: hidden;
+}
+
+#lenguage{
+    display: none;
+    visibility: hidden;    
+}
+
+#container{
+    position: absolute;
+    top: 110px;
+    bottom: 80px;
+    left: 0px;
+    right: 0px;
+    text-align:center;
+}
+
+.tableop{
+    margin:0px auto;
+    margin-top: 10px;
+
+}
+
+.text1{
+    color: #0353a4;
+    font-weight: bold;
+}
+
+#bottommov{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #0353a4;
+}
+
+#menumov{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px;
+}
+
+#lenguagemov{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+#downloadmov{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px;
+}
+
+.manita{
+    cursor:pointer;
+}
+
+#minimenumov{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 30px;
+    font-size: x-large;
+    color: #ffffff;
+    background-color: #001845;
+}
+
+#menuopmov{
+    padding: 150px;
+}
+.menuopsmov{
+    padding: 15px;
+}
