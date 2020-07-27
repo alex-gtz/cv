@@ -1,4 +1,120 @@
 body {
-    font-family: Verdana;
-    font-family: 'PT Sans';
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+#sideMenu{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #0353a4;
+}
+#title{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+}
+#name{
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    width: 265px;
+    background-color: #001845;
+    padding: 10px;
+    border-radius: 0px 15px 15px 0px;
+    -moz-border-radius: 0px 15px 15px 0px;
+    -webkit-border-radius: 0px 15px 15px 0px;
+    border: 0px solid #000000;
+}
+
+#fullname{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#menu{
+    position: absolute;
+    top: 165px;
+    left: 0px;
+    padding: 10px;
+}
+.menuop{
+    margin-bottom: 15px;
+}
+
+#download{
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#lenguage{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.manita{
+    cursor:pointer;
+}
+
+#container{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 200px;
+    right: 0px;
+    text-align:center;
+}
+
+.ops{
+    width: 80%;
+    margin:0px auto;
+    text-align:center;
+}
+
+.link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tableop{
+    margin:0px auto;
+    width: 580px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 2px solid #001845;
+}
+
+.optitle{
+    font-size: large;
+}
+
+.text1{
+    color: #0353a4;
+    font-weight: bold;
+}
+
+#menumov{
+    display: none;
+    visibility: hidden; 
+}
+
+#bottommov{
+    display: none;
+    visibility: hidden; 
+}
+
+#minimenumov{
+    display: none;
+    visibility: hidden; 
 }
