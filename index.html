@@ -3,16 +3,390 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro</title>
+    <title>Alejandro Gtz.</title>
+    <!--<link rel="icon" href="img/favicon.svg" sizes="any" type="image/svg+html">-->
+    <link rel="icon" href="img/favicon.ico" sizes="any" type="image/png">
     <link rel="stylesheet" href="css/normalize.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" media="(max-width: 799px)" href="css/stylemov.css" />
+    <link rel="stylesheet" media="(min-width: 800px)" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-    <div>
-        header
+    <div id="sideMenu">
+        <div id="title">
+            <div class="esp">Mi CV</div>
+            <div class="eng">My CV</div>
+        </div>
+        <div id="name">
+            <table cellspacing = 5>
+                <td>
+                    <img src="img/pc.svg" width="60" alt="">
+                </td>
+                <td>
+                    <span id="fullname">Alejandro<br>Gutiérrez Rivera</span><br>
+                    <span class="titlename esp">Desarrollador</span>
+                    <span class="titlename eng">Developer</span>
+                </td>
+                <div id="menumov" class="manita">
+                    <img height="50" src="img/menu.png" >
+                </div>
+            </table>
+        </div>
+        <div id="menu">
+            <div id="op1m">
+                <div id="op1esp" class="menuop esp manita">< Info. Personal /></div>
+                <div id="op1eng" class="menuop eng manita">< Personal Info. /></div>
+            </div>
+            <div id="op2m">
+                <div id="op2esp" class="menuop esp manita">< Educación /></div>
+                <div id="op2eng" class="menuop eng manita">< Education /></div>
+            </div>
+            <div id="op3m">
+                <div id="op3esp" class="menuop esp manita">< Habilidades /></div>
+                <div id="op3eng" class="menuop eng manita">< Skills /></div>
+            </div>
+            <div id="op4m">
+                <div id="op4esp" class="menuop esp manita">< Experiencia /></div>
+                <div id="op4eng" class="menuop eng manita">< Experience /></div>
+            </div>
+        </div>
+        <div id="download" class="manita">
+            <div class="esp">
+                <a class="link" href="docs/CV_Alejandro_Gtz_ESP.pdf" download >Descargar CV (Esp)</a>
+            </div>
+            <div class="eng">
+                <a class="link" href="docs/CV_Alejandro_Gtz_ENG.pdf" download >Download CV (Eng)</a>
+
+            </div>
+        </div>
+        <div id="lenguage" class="manita">
+            <span id="setupEsp" class="setupLeng">Esp</span> <b>/</b> <span id="setupEng" class="setupLeng">Eng</span>
+        </div>
     </div>
-    <div>
-        body
+    <div id="container">
+        <div id="op1" class="ops">
+            <div class="tableop">
+                <div class="optitle text1 esp">
+                    < Información Personal />
+                </div>
+                <div class="optitle text1 eng">
+                    < Personal Information />
+                </div>
+                <hr>
+                <table border=0 width="100%">
+                    <tr>
+                        <td align="right" width="32%">
+                            <div class="text1 esp">Nombre: </div>
+                            <div class="text1 eng">Name: </div>
+                        </td>
+                        <td align="left"  width="68%">
+                            Alejandro Gutiérrez Rivera
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="right">
+                            <div class="text1 esp">Dirección: </div>
+                            <div class="text1 eng">Address: </div>
+                        </td>
+                        <td align="left">
+                            Campeche #798 Col. Esperanza, Mexicali B.C.
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="right">
+                            <div class="text1 esp">Fecha de nacimiento: </div>
+                            <div class="text1 eng">Date of birth: </div>
+                        </td>
+                        <td align="left">
+                            <div class="esp">4 de Febrero de 1986</div>
+                            <div class="eng">February 4, 1986</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="right">
+                            <div class="text1 esp">Celular: </div>
+                            <div class="text1 eng">Cellphone: </div>
+                        </td>
+                        <td align="left">
+                            686-216-2191
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="right">
+                            <div class="text1">Email: </div>
+                        </td>
+                        <td align="left">
+                            alex.gtz.riv@gmail.com
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+        </div>
+        <div id="op2" class="ops">
+            <div class="tableop">
+                <div class="optitle text1 esp">
+                    <b>< Educación /></b>
+                </div>
+                <div class="optitle text1 eng">
+                    <b>< Education /></b>
+                </div>
+                <hr>
+                <table border=0 width="100%">
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Universidad Autónoma de Baja California (2008-2013)<br>Lic. en Informática</div>
+                            <div class="eng">-Universidad Autónoma de Baja California (2008-2013)<br>Bachelor Degree in Informatic</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Conalep (2001-2004)<br>Técnico en informática</div>
+                            <div class="eng">-Conalep (2001-2004)<br>IT technician</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="text1 esp"><b>Otros cursos:</b></div>
+                            <div class="text1 eng"><b>Other courses:</b></div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Maratón Regional de Informática ANFECA 2012 - Chihuahua, Chihuahua</div>
+                            <div class="eng">-Regional Marathon of Informatic ANFECA 2012 - Chihuahua, Chihuahua</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Concurso de Programación ACM ICPC 2011 - Zamora, Michocacan</div>
+                            <div class="eng">-Programming Contest ACM ICPC 2011 - Zamora, Michocacan</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Congreso Internacional en Ciencias Computacionales CiComp 2009 - Ensenada, Baja California</div>
+                            <div class="eng">-International Congress of Computer Science CiComp 2009 - Ensenada, Baja California</div>
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+        </div>
+        <div id="op3" class="ops">
+            <div class="tableop">
+                <div class="optitle text1 esp">
+                    <b>< Habilidades /></b>
+                </div>
+                <div class="optitle text1 eng">
+                    <b>< Skills /></b>
+                </div>
+                <hr>
+                <table border=0 width="100%">
+                    <tr>
+                        <td align="left">
+                            <div class="esp">
+                                -Diseño de páginas web.<br>
+                                -Desarrollo de sistemas web y APIs (Back-End y Front-End).<br>
+                                -Diseño y administración de bases de datos.<br>
+                            </div>
+                            <div class="eng">
+                                -Website design.<br>
+                                -Development of web systems and APIs (Back-End and Front-End).<br>
+                                -Database design and administration.<br>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="text1 esp"><b>Conocimientos avanzados:</b></div>
+                            <div class="text1 eng"><b>Advanced knowledge:</b></div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            HTML, CSS, PHP, MySQL, Javascript, JQuery.
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="text1 esp">Conocimientos intermedios:</div>
+                            <div class="text1 eng">Intermediate knowledge:</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            Bootstrap, Java, ASP, SQL, Visual basic, VueJS.
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="text1 esp">Aplicaciones manejadas:</div>
+                            <div class="text1 eng">Managed applications:</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            Microsoft Office, Netbeans, Notepad++, Visual Studio Code, SQL Server.
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="text1 esp">Otras habilidades:</div>
+                            <div class="text1 eng">Other Skills:</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Reparación y mantenimiento de equipos de cómputo.</div>
+                            <div class="eng">-Repair and maintenance of computer equipment.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Manejo avanzado de MS Excel.</div>
+                            <div class="eng">-advanced MS Excel management.</div>
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+        </div>
+        <div id="op4" class="ops">
+            <div class="tableop">
+                <div class="optitle text1 esp">
+                    < Experiencia />
+                </div>
+                <div class="optitle text1 eng">
+                    < Experience />
+                </div>
+                <hr>
+                <table border=0 width="100%">
+                    <tr>
+                        <td align="left">
+                            <div class="text1 esp"><b>Devise (Ene/2020 - Jun/2020)</b></div>
+                            <div class="text1 eng"><b>Devise (Jan/2020 - Jun/2020)</b></div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Mantenimiento a diversas páginas Web.</div>
+                            <div class="eng">-Maintenance of various web pages.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Diseño y soporte de APIs para el uso en aplicaciones móviles.</div>
+                            <div class="eng">-Design and support of APIs for use in mobile applications.</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="text1">Gameloft (Jun/2016 - Nov/2019)</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Desarrollador PHP en el área de E-commerce.</div>
+                            <div class="eng">-PHP developer in the area of E-commerce.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Soporte a tiendas de Aplicaciones.</div>
+                            <div class="eng">-Application shop support.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Mantenimiento de APIs de cobro a los clientes.</div>
+                            <div class="eng">-Maintaining APIs for charging customers.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Instructor de cursos de Excel.</div>
+                            <div class="eng">-Excel Course Instructor.</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="text1">Freelance (2013- 2016)</div>
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Diseño de sistemas y páginas Web.</div>
+                            <div class="eng">-Design of systems and web pages.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <div class="esp">-Soporte y Mantenimiento de equipos de computo.</div>
+                            <div class="eng">-Support and Maintenance of computer equipment.</div>
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div id="bottommov">
+        <div id="lenguagemov" class="manita">
+            <span id="setupEspmov" class="setupLengmov">Esp</span> <b>/</b> <span id="setupEngmov" class="setupLengmov">Eng</span>
+        </div>
+        <div id="downloadmov" class="manita">
+            <div class="esp">
+                <a class="link" href="docs/CV_Alejandro_Gtz_ESP.pdf" download ><img height="50" src="img/descargar.png" ></a>
+            </div>
+            <div class="eng">
+                <a class="link" href="docs/CV_Alejandro_Gtz_ENG.pdf" download ><img height="50" src="img/descargar.png" ></a>
+
+            </div>
+            
+        </div>
+    </div>
+    <div id="minimenumov">
+        <div id="op1mmov" class="menuopsmov">
+            <div id="op1espmov" class="menuopmov esp manita">< Info. Personal /></div>
+            <div id="op1engmov" class="menuopmov eng manita">< Personal Info. /></div>
+        </div>
+        <div id="op2mmov" class="menuopsmov">
+            <div id="op2espmov" class="menuopmov esp manita">< Educación /></div>
+            <div id="op2engmov" class="menuopmov eng manita">< Education /></div>
+        </div>
+        <div id="op3mmov" class="menuopsmov">
+            <div id="op3espmov" class="menuopmov esp manita">< Habilidades /></div>
+            <div id="op3engmov" class="menuopmov eng manita">< Skills /></div>
+        </div>
+        <div id="op4mmov" class="menuopsmov">
+            <div id="op4espmov" class="menuopmov esp manita">< Experiencia /></div>
+            <div id="op4engmov" class="menuopmov eng manita">< Experience /></div>
+        </div>
     </div>
 </body>
 </html>
