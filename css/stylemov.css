@@ -37,10 +37,11 @@ body {
 #container{
     position: absolute;
     top: 110px;
-    bottom: 80px;
+    bottom: 65px;
     left: 0px;
     right: 0px;
     text-align:center;
+    overflow-y: auto;
 }
 
 .tableop{
@@ -59,7 +60,7 @@ body {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    height: 80px;
+    height: 65px;
     color: #ffffff;
     background-color: #0353a4;
 }
